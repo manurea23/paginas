@@ -1,0 +1,27 @@
+/* Estiliza o elemento <body> de toda a página */
+body {
+    margin: 0;                  /* Remove a margem padrão do corpo do documento */
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Define a família de fontes como Arial ou, se não disponível, uma sans-serif genérica */
+}
+
+/* Estiliza a div que serve como contêiner do menu no topo */
+.menu-topo {
+    background-color: #5108fa;     /* Define a cor de fundo do menu como cinza escuro (#333) */
+    overflow: hidden;           /* Previne que o conteúdo dentro do menu "transborde" e seja visível fora do contêiner */
+}
+
+/* Estiliza os links dentro do contêiner do menu no topo */
+.menu-topo a {
+    float: left;                /* Faz cada link flutuar à esquerda, alinhando-os horizontalmente */
+    display: block;             /* Faz com que cada link seja tratado como um bloco, permitindo definir largura e altura */
+    color: rgb(0, 0, 0);               /* Define a cor do texto dos links como branco */
+    text-align: center;         /* Centraliza o texto dentro do link */
+    padding: 14px 14px;         /* Adiciona um espaçamento interno de 14px no topo/inferior e 16px nas laterais de cada link */
+    text-decoration: none;      /* Remove o sublinhado padrão dos links */
+}
+
+/* Estiliza os links dentro do menu no topo quando o mouse passa sobre eles (hover) */
+.menu-topo a:hover {
+    background-color: #dddddd;     /* Muda a cor de fundo do link para cinza claro (#ddd) quando o mouse está sobre ele */
+    color: black;               /* Muda a cor do texto para preto durante o hover */
+}
